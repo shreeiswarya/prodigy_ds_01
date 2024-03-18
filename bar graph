@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate some random ages for demonstration
+ages = np.random.randint(18, 80, 1000)
+
+plt.hist(ages, bins=20, color='skyblue', edgecolor='black')
+plt.title('Distribution of Ages')
+plt.xlabel('Age')
+plt.ylabel('Frequency')
+plt.grid(True)
+plt.show()
+
+
+
+
+
+
+
+
